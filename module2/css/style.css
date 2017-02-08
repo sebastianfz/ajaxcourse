@@ -36,20 +36,32 @@
 /********** Tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #section1{
+    float:left;
+    width:45%;
+    margin-left:5%;
   }
   #section2{
+    float:left;
+    width:45%;
+    margin-left:5%;
   }
   #section3{
+    float:left;
+    width:95%;
+    margin-left:5%;
   }
 }
 
 /********** Tablet **********/
 @media only screen and (max-width: 767px) {
   #section1{
+    width:100%;
   }
   #section2{
+    width:100%;
   }
   #section3{
+    width:100%;
   }
 }
 
