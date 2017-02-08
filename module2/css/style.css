@@ -1,12 +1,27 @@
+/********** Base Styles **********/
+  #section1{
+    border:1px solid black;
+  }
+  #section2{
+    border:1px solid black;
+  }
+  #section3{
+    border:1px solid black;
+  }
+
+
 /********** Desktop **********/
 @media (min-width: 992px) {
   #section1{
+    float:left;
     width:30%;
   }
   #section2{
+    float:left;
     width:30%;
   }
   #section3{
+    float:left;
     width:30%;
   }
   
