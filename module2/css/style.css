@@ -23,8 +23,10 @@ h1{text-align:center;}
     color:white;
     text-align:center;
     width:33%;
-    margin-right:-15%;
-    margin-top:-10%;
+    position: relative;
+    margin-top: -10%;
+    margin-right: -15%;
+
   }
   #title2{
     float:right;
@@ -33,8 +35,9 @@ h1{text-align:center;}
     color:white;
     text-align:center;
     width:33%;
-    margin-right:-15%;
-    margin-top:-10%;
+    position: relative;
+    margin-top: -10%;
+    margin-right: -15%;
   }
   #title3{
     float:right;
@@ -43,8 +46,9 @@ h1{text-align:center;}
     color:white;
     text-align:center;
     width:33%;
-    margin-right:-15%;
-    margin-top:-10%;
+    position: relative;
+    margin-top: -10%;
+    margin-right: -15%;
   }
 
 
@@ -102,7 +106,7 @@ h1{text-align:center;}
   #section3{
     width:94%;
     margin-bottom:10px;
-  }
+  }  
 }
 
 
