@@ -38,30 +38,35 @@
   #section1{
     float:left;
     width:45%;
-    margin-left:5%;
+    margin-left:4%;
+    margin-bottom:10px;
   }
   #section2{
     float:left;
     width:45%;
-    margin-left:5%;
+    margin-left:4%;
+    margin-bottom:10px;
   }
   #section3{
     float:left;
-    width:95%;
-    margin-left:5%;
+    width:94.3%;
+    margin-left:4%;
   }
 }
 
-/********** Tablet **********/
+/********** Mobile **********/
 @media only screen and (max-width: 767px) {
   #section1{
     width:100%;
+    margin-bottom:10px;
   }
   #section2{
     width:100%;
+    margin-bottom:10px;
   }
   #section3{
     width:100%;
+    margin-bottom:10px;
   }
 }
 
