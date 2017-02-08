@@ -1,12 +1,15 @@
 /********** Base Styles **********/
   #section1{
     border:1px solid black;
+    background-color:grey;
   }
   #section2{
     border:1px solid black;
+    background-color:grey;
   }
   #section3{
     border:1px solid black;
+    background-color:grey;
   }
 
 
@@ -14,15 +17,18 @@
 @media (min-width: 992px) {
   #section1{
     float:left;
-    width:30%;
+    width:26.667%;
+    margin-left:5%;
   }
   #section2{
     float:left;
-    width:30%;
+    width:26.667%;
+    margin-left:5%;
   }
   #section3{
     float:left;
-    width:30%;
+    width:26.667%;
+    margin-left:5%;
   }
   
 }
