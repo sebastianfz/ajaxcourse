@@ -2,14 +2,41 @@
   #section1{
     border:1px solid black;
     background-color:grey;
+    padding:5%;
   }
   #section2{
     border:1px solid black;
     background-color:grey;
+    padding:5%;
   }
   #section3{
     border:1px solid black;
     background-color:grey;
+    padding:5%;
+  }
+  #title1{
+    float:right;
+    border:1px solid black;
+    background-color:red;
+    color:white;
+    text-align:center;
+    width:33%;
+  }
+  #title2{
+    float:right;
+    border:1px solid black;
+    background-color:blue;;
+    color:white;
+    text-align:center;
+    width:33%;
+  }
+  #title3{
+    float:right;
+    border:1px solid black;
+    background-color:green;
+    color:white;
+    text-align:center;
+    width:33%;
   }
 
 
