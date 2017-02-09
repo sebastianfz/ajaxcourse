@@ -97,16 +97,19 @@ h1{text-align:center;}
 }
 
 /********** Mobile **********/
-@media (max-width: 767px) {
+@media (min-width:100px) and (max-width: 767px) {
   #section1{
+    float:none;
     width:94%;
     margin-bottom:10px;
   }
   #section2{
+    float:none;
     width:94%;
     margin-bottom:10px;
   }
   #section3{
+    float:none;
     width:94%;
     margin-bottom:10px;
   }  
