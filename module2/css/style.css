@@ -97,7 +97,7 @@ h1{text-align:center;}
 }
 
 /********** Mobile **********/
-@media (max-width: 767px) 
+@media only screen and (max-width: 767px) 
 {
   #section1{
     float:none;
