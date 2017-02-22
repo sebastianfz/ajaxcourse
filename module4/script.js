@@ -69,7 +69,7 @@ WARNING!!! WARNING!!!
 
 	function speakIt(name)
 	{
-		var fl = name[i].charAt(0).toLowerCase();
+		var fl = name.charAt(0).toLowerCase();
 		if (fl== "j")
 		{
 			console.log("Good Bye" + " " + x);
