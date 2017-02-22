@@ -91,6 +91,8 @@ WARNING!!! WARNING!!!
 	      }
 	    }
 	    var map = names.map(mapfunc);
-	
+	newArr.map(function(x){
+		console.log(x);
+	});
 
 })();
