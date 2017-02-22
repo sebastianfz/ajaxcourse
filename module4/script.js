@@ -72,11 +72,11 @@ WARNING!!! WARNING!!!
 		var fl = name.charAt(0).toLowerCase();
 		if (fl== "j")
 		{
-			console.log("Good Bye" + " " + x);
+			console.log("Good Bye" + " " + name);
 		}
 		else
 		{
-			console.log("Hello" + " " + x);
+			console.log("Hello" + " " + name);
 		}
 
 	}
