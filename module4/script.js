@@ -65,33 +65,17 @@ WARNING!!! WARNING!!!
 	  }
 	}
 	
-	var newArr = names.map(speakIt);
 	
-	function speakIt(name)
-	{
-		
-		var fl = name.charAt(0).toLowerCase();
-		if (fl== "j")
-		{
-			byeSpeaker.speakSimple(name);
-		}
-		else
-		{
-			hellospeaker.speakSimple(name);
-		}
-
-	}
 	
 	var mapfunc = function(name){
 	    var firstLetter = name.charAt(0).toLowerCase();
 	    if (firstLetter == "j") {
-		 byeSpeaker.speakSimple(name);
+		 byeSpeaker.speak(name);
 	      } else {
-		 hellospeaker.speakSimple(name);
+		 hellospeaker.speak(name);
 	      }
 	    }
 	    var map = names.map(mapfunc);
-	for (var i=0; i < newArr.length; i++) {console.log(newArr[i]);}
 
 
 })();
