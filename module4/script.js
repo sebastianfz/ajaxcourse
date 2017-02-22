@@ -65,18 +65,18 @@ WARNING!!! WARNING!!!
 	  }
 	}
 	
-	var newArr = names.map(speakIt(name));
+	var newArr = names.map(speakIt);
 
 	function speakIt(name)
 	{
 		var fl = name.charAt(0).toLowerCase();
 		if (fl== "j")
 		{
-			console.log("Good Bye" + " " + name);
+			byeSpeaker.speak(names[i]);
 		}
 		else
 		{
-			console.log("Hello" + " " + name);
+			hellospeaker.speak(names[i]);
 		}
 
 	}
