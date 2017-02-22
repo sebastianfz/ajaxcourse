@@ -77,7 +77,7 @@ WARNING!!! WARNING!!!
 		}
 		else
 		{
-			newArray.push(hellospeaker.speak(name));
+			newArray.push(hellospeaker.speakSimple(name));
 		}
 
 	}
