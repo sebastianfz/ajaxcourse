@@ -73,15 +73,24 @@ WARNING!!! WARNING!!!
 		var fl = name.charAt(0).toLowerCase();
 		if (fl== "j")
 		{
-			return byeSpeaker.speakSimple(name);
+			byeSpeaker.speakSimple(name);
 		}
 		else
 		{
-			return hellospeaker.speakSimple(name);
+			hellospeaker.speakSimple(name);
 		}
 
 	}
-	newArr.map(console.log);
+	
+	var mapfunc = function(name){
+	    var firstLetter = name.charAt(0).toLowerCase();
+	    if (firstLetter == "j") {
+		 byeSpeaker.speakSimple(name);
+	      } else {
+		 hellospeaker.speakSimple(name);
+	      }
+	    }
+	    var map = names.map(mapfunc);
 	
 
 })();
