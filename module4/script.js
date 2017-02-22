@@ -76,6 +76,22 @@ WARNING!!! WARNING!!!
 	      }
 	    }
 	    var map = names.map(mapfunc);
+	
+	var hello = names.reduce(function(isj, name) {
+	  if (name.charAt(0).toLowerCase() == "j") {
+	    return name;	    
+	  }	
+	  hellospeaker.speak(name);
+	  return isj;
+	}, names);
+
+	var bye = names.reduce(function(isj, name) {
+	  if (name.charAt(0).toLowerCase() != "j") {
+	    return name;	    
+	  }	
+	  byeSpeaker.speak(name);
+	  return isj;
+	}, names);
 
 
 })();
