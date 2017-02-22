@@ -27,8 +27,8 @@
 	byeSpeaker.speak = function (name) {
 	  console.log(speakWord + " " + name);
 	}
-	hellospeaker.speakSimple = function (name){
-	 return hellospeaker.speakWord + " " + name;
+	byeSpeaker.speakSimple = function (name){
+	 return byeSpeaker.speakWord + " " + name;
 	}
 	window.byeSpeaker = byeSpeaker;
 })(window);
