@@ -64,6 +64,22 @@ WARNING!!! WARNING!!!
 	     hellospeaker.speak(names[i]);
 	  }
 	}
-	var map = names.map();
+	
+	var newArr = names.map(speakIt(name));
+
+	function speakIt(name)
+	{
+		var fl = name[i].charAt(0).toLowerCase();
+		if (fl== "j")
+		{
+			console.log("Good Bye" + " " + x);
+		}
+		else
+		{
+			console.log("Hello" + " " + x);
+		}
+
+	}
+	
 
 })();
