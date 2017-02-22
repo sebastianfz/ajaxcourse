@@ -66,22 +66,22 @@ WARNING!!! WARNING!!!
 	}
 	
 	var newArr = names.map(speakIt);
-	var newArray=[];
+	
 	function speakIt(name)
 	{
 		
 		var fl = name.charAt(0).toLowerCase();
 		if (fl== "j")
 		{
-			newArray.push(byeSpeaker.speakSimple(name));
+			return byeSpeaker.speakSimple(name);
 		}
 		else
 		{
-			newArray.push(hellospeaker.speakSimple(name));
+			return hellospeaker.speakSimple(name);
 		}
 
 	}
-	newArray.map(console.log);
+	newArr.map(console.log);
 	
 
 })();
