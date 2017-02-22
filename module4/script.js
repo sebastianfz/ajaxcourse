@@ -72,11 +72,11 @@ WARNING!!! WARNING!!!
 		var fl = name.charAt(0).toLowerCase();
 		if (fl== "j")
 		{
-			byeSpeaker.speak(names[i]);
+			byeSpeaker.speak(name);
 		}
 		else
 		{
-			hellospeaker.speak(names[i]);
+			hellospeaker.speak(name);
 		}
 
 	}
