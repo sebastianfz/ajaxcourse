@@ -161,6 +161,7 @@ dc.buildAndShowratings = function () {
 		  }     
                   
 	$(".ratings span").css("color", "yellow");
+	$(".ratings").append("<span style='padding-left:10px;'>"+number+"-star rating</span>");
 	
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
