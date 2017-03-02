@@ -147,17 +147,9 @@ dc.buildAndShowratings = function () {
     aboutHtmlUrl,
     function (aboutHtml) {
        var number = Math.floor(Math.random() * (5+1))
-       var spans = document.querySelectorAll("span");
-		  for (var i = 0; i < spans.length; i++) {
-			if (i < number)
-			{
-		         spans[i].addClass('fa fa-star');
-                        }
-			 spans[i].addClass('fa fa-star-o');
-		  }     
-             
+       var spans = document.querySelectorAll("span");             
 	insertHtml("#main-content", spans);
-
+	
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
