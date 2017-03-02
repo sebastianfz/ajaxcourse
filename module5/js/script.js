@@ -151,9 +151,9 @@ dc.buildAndShowratings = function () {
 	for (var i = 0; i < spans.length; i++) {
 			if (i < number)
 			{
-		         spans[i].addClass('fa fa-star');
+		         spans.eq(i).addClass('fa fa-star');
                         }
-			 spans[i].addClass('fa fa-star-o');
+			 spans.eq(i).addClass('fa fa-star-o');
 		  }     
                   
 	insertHtml("#main-content", aboutHtml);
