@@ -141,7 +141,7 @@ function chooseRandomCategory (categories) {
 }
 
 
-function buildAndShowratings () {
+dc.buildAndShowratings = function () {
 // Load home snippet page
   $ajaxUtils.sendGetRequest(
     aboutHtmlUrl,
