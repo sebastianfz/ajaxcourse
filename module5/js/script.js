@@ -148,8 +148,8 @@ dc.buildAndShowratings = function () {
     function (aboutHtml) {
        var number = Math.floor(Math.random() * (5+1))
        var spans = document.querySelectorAll("span");
-		  for (var i = 0; i < spans.length; ++i) {
-			if (I < number)
+		  for (var i = 0; i < spans.length; i++) {
+			if (i < number)
 			{
 		         spans[i].addClass('fa fa-star');
                         }
