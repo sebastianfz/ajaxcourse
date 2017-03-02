@@ -147,16 +147,20 @@ dc.buildAndShowratings = function () {
     aboutHtmlUrl,
     function (aboutHtml) {
        var number = Math.floor(Math.random() * (5+1));
-	var spans = $(aboutHtml).find("span");
+	insertHtml("#main-content", aboutHtml);
+	var spans = $("span");
 	for (var i = 0; i < spans.length; i++) {
 			if (i < number)
 			{
 		         spans.eq(i).addClass('fa fa-star');
                         }
+			else
+			{
 			 spans.eq(i).addClass('fa fa-star-o');
+			}
 		  }     
                   
-	insertHtml("#main-content", aboutHtml);
+	
 	
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
