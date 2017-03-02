@@ -148,7 +148,7 @@ dc.buildAndShowratings = function () {
     function (aboutHtml) {
        var number = Math.floor(Math.random() * (5+1));
 	insertHtml("#main-content", aboutHtml);
-	var spans = $("span");
+	var spans = $(".ratings span");
 	for (var i = 0; i < spans.length; i++) {
 			if (i < number)
 			{
@@ -160,7 +160,7 @@ dc.buildAndShowratings = function () {
 			}
 		  }     
                   
-	$("span").css("color", "yellow");
+	$(".ratings span").css("color", "yellow");
 	
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
