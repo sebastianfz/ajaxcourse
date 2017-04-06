@@ -1,8 +1,8 @@
 <ul>
     <div>
-        <li ng-repeat="item in found-items">
+        <li ng-repeat="item in items">
             <div>
-                <b>Name:</b>({item.name})
+                <b>Name:</b>{{item.name}}
             </div>
             <div>
                 <b>Description:</b> {{item.description}}
@@ -11,4 +11,4 @@
         </li>
     </div>
 </ul>
-<div ng-if="found-items.length == 0">Nothing Found</div>
+<div ng-if="items.length == 0">Nothing Found</div>
