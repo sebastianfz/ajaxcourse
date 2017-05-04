@@ -1,0 +1,32 @@
+<div class="container" ng-if = info.user.registered >
+
+<div class="menu-item-tile col-md-6">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>{{info.test.short_name}}</div>
+        <img class="img-responsive" width="250" height="150" ng-src="{{info.basePath}}/images/{{info.test.short_name}}.jpg" alt="{{info.test.short_name}}">
+      </div>
+      <div class="menu-item-price">{{info.test.price_small | currency}}<span> {{info.test.small_portion_name}}</span> {{info.test.price_large | currency}} <span>{{info.test.large_portion_name}}</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">{{info.test.name}}</h3>
+      <p class="menu-item-details">{{info.test.description}}</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+</div>
+<div class="menu-item-tile col-md-6">
+  <div class="row">
+    <span><h3>First name:</h3></span><h4>{{info.user.firstname}}</h4>
+    <span><h3>Last name:</h3></span><h4>{{info.user.lastname}}</h4>
+    <span><h3>Phone:</h3></span><h4>{{info.user.phone}}</h4>
+    <span><h3>Email:</h3></span><h4>{{info.user.email}}</h4>
+  </div>
+</div>
+
+</div>
+
+<div class="container" ng-hide=info.user.registered>
+  <h2>Not Signed Up Yet. <a ui-sref="public.signup">Sign up Now!</a></h2>
+</div>
